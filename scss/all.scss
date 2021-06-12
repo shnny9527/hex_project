@@ -1,0 +1,53 @@
+@import "reset";
+@import "bootstrap/bootstrap";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans TC", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header {
+  .logo {
+    display: block;
+    background-image: url(/img/logo.jpg);
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-size: cover;
+    width: 111px;
+    height: 40px;
+  }
+}
+.btn-warning {
+  color: #636057;
+  font-weight: bold;
+}
+.btn-warning:hover {
+  background: $orangered;
+  border: $orangered 1px solid;
+  color: white;
+}
+.btn-outline-secondary:hover {
+  background: $warning;
+}
+
+.fa-heart-hover:hover {
+  color: red;
+}
+.warning-hover:hover {
+  color: $warning;
+}
+.btn-pd {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.nav .active {
+  font-weight: bold;
+  border-bottom: 4px solid #ffc107;
+}
